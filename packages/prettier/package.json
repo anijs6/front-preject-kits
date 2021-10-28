@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "prettier 公共配置",
   "main": ".prettierrc.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +14,5 @@
   ],
   "author": "",
   "license": "ISC",
-  "gitHead": "e344c626d8e2bd90d7dcc8dbcf46b35c1aadef72"
+  "gitHead": "fbbbf3087d5e5c598bd024b30b57a55f4d38f34d"
 }
