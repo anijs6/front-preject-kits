@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "前端工程基础套件",
   "main": "index.js",
+  "workspaces": ["packages/*"],
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/anijs6/front-preject-kits/issues"
   },
-  "homepage": "https://github.com/anijs6/front-preject-kits#readme"
+  "homepage": "https://github.com/anijs6/front-preject-kits#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }
