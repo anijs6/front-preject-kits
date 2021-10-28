@@ -1,0 +1,20 @@
+{
+  "name": "front-preject-kits",
+  "version": "1.0.0",
+  "description": "前端工程基础套件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anijs6/front-preject-kits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anijs6/front-preject-kits/issues"
+  },
+  "homepage": "https://github.com/anijs6/front-preject-kits#readme"
+}
