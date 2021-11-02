@@ -1,6 +1,6 @@
 {
   "name": "@anijs/prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prettier 公共配置",
   "main": ".prettierrc.js",
   "publishConfig": {
