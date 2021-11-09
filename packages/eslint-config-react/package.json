@@ -2,7 +2,7 @@
   "name": "@anijs/eslint-config-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/config.js",
   "publishConfig": {
     "access": "public"
   },
