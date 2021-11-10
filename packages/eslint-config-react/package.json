@@ -1,6 +1,6 @@
 {
   "name": "@anijs/eslint-config-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/config.js",
   "publishConfig": {
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@anijs/eslint-config-base": "^1.0.1",
+    "@anijs/eslint-config-base": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^5.3.0",
     "@typescript-eslint/parser": "^5.3.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -21,8 +21,8 @@
     "eslint-plugin-react": "^7.26.1"
   },
   "peerDependencies": {
-    "typescript": "*",
+    "eslint": "^7.0.0",
     "react": "*",
-    "eslint": "^7.0.0"
+    "typescript": "*"
   }
 }
