@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.1.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
@@ -22,8 +21,11 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.4.1",
+    "prettier": "*",
     "prettier-plugin-sort-json": "^0.0.2"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
   },
   "gitHead": "aa0c0fa1c38d3575264b96da910df24d5beab5a2"
 }

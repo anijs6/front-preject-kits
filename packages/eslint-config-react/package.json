@@ -19,5 +19,10 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-react": "^7.26.1"
+  },
+  "peerDependencies": {
+    "typescript": "*",
+    "react": "*",
+    "eslint": "^7.0.0"
   }
 }
