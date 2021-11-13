@@ -9,5 +9,13 @@ module.exports = {
   bracketSameLine: true,
   jsxSingleQuote: true,
   arrowParens: 'avoid',
-  endOfLine: 'lf'
+  endOfLine: 'lf',
+  overrides: [
+    {
+      files: ['*.yml', '*.yaml'],
+      options: {
+        singleQuote: false
+      }
+    }
+  ]
 }
